@@ -150,7 +150,7 @@
 				flex-direction: row;
 				background-color:white;
 				border-radius: 23px;
-				height:8vh; 
+				height:6vh; 
 			}
 			.search-btn{
 				color:#607d8b;
@@ -229,13 +229,10 @@
 	<span class="white-text">Subscribe to our newsletter</span>
 </div>
 <div class="item-b">
-	<div class="subscribe-box">
-		<input placeholder="Enter your e-mail address" class="browser default subscribe-text" type="text" name="subscribe">
-		<button class="red subscribe white-text" style="border-radius: 13px;border-color: #bf2e2a;">Subscribe</button>
-	</div>
+	<div><input placeholder="Enter your e-mail address" class="browser default" type="text" name="subscribe"></div>
+	<div style="padding-right: 5px;padding-top: 5px;padding-bottom: 5px;"><button class="red bt white-text" style="border-radius: 13px;border-color: #bf2e2a;">Subscribe</button></div>
 </div>
-</footer>
-<!--JQuery initialization-->
+</footer><!--JQuery initialization-->
 <script type="text/javascript" src="js/jQuery.min.js"></script>
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.min.js"></script>
