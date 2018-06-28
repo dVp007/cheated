@@ -150,7 +150,7 @@
 				flex-direction: row;
 				background-color:white;
 				border-radius: 23px;
-				height:6vh; 
+				height:8vh; 
 			}
 			.search-btn{
 				color:#607d8b;
