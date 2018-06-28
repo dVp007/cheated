@@ -64,7 +64,7 @@
 			}
 			.user-container{
 				display:inline-grid;
-				grid-template-columns: 25% auto;
+				grid-template-columns: 30% auto;
 				grid-template-rows: 70% auto;
 				width: 100%;
 			}
