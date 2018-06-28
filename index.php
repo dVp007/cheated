@@ -123,19 +123,6 @@
 				grid-row-start: 4;
 				grid-row-end: 4;
 			}
-			.item-a {
-				grid-column-start: 1;
-				grid-column-end: 5;
-				grid-row-start: 1;
-				grid-row-end: 1;
-				place-self: center;
-			}
-			.item-b {
-				grid-column-start: 1;
-				grid-column-end: 4;
-				grid-row-start: 2;
-				grid-row-end: 2;
-			}
 			.user-item-d{
 				grid-column-start: 2;
 				grid-column-end: 4;
@@ -158,23 +145,21 @@
 			.search{
 				margin:1vh!important;
 			}
-			.subscribe-text{
-				width:60%!important;
-			}
-			.subscribe-box{
-				width:90%;
-				background-color:white!important;
-				margin:0 5% 2%!important;
-				align-items:baseline;
-			}
-			button.subscribe{
-				flex-grow: 2;
-			}
 		.subscribe-container {
-		display: inline-grid;
-		grid-template-columns: 20% 50% 25%;
-		grid-template-rows: 50% 50%;
+			display: inline-grid;
+			grid-template-columns: 25% 25% 25% 25%;
+			grid-template-rows: 50% 50%;
 		}
+		.item-a {
+				grid-column-start: 1;
+				grid-column-end: 5;
+				grid-row-start: 1;
+				grid-row-end: 1;
+				place-self: center;
+			}
+			.item-b>div:nth-child(1){
+				width:85%;
+			}
 		</style>
 		<title>CheatedBuyers||Home-Page</title>
 		<!--Let browser know website is optimized for mobile-->
