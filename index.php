@@ -36,7 +36,7 @@
 			input{
 				background-color: #fafafa!important;
 				border-bottom: none!important;
-				height:2rem!important;
+				height:1%!important;
 			    margin-left: 5px!important;
 		 		margin-bottom: 0px!important;
 			}
@@ -63,7 +63,7 @@
    			}
 			.user-container{
 				display:inline-grid;
-				grid-template-columns: 20% auto;
+				grid-template-columns: 25% auto;
 				grid-template-rows: 70% auto;
 				width: 100%;
 			}
@@ -92,7 +92,7 @@
 			}
 			.main-container{
 					display: inline-grid;
-					grid-template-columns: 20% auto 20%;
+					grid-template-columns: 15% auto 15%;
 					grid-template-rows: auto auto 20% 20%;
 			}
 			.main-item-a{
@@ -213,7 +213,7 @@
 			</div>
 		</div>
 	<div class="main-item-b flow-text"><span class="white-text" style="font-size: 1.9rem;">Let's Hear from you</span>
-		<button id="review" class="red white-text flow-text">
+		<button id="review" class="red white-text">
 			Write your review
 		</button>
 	</div>
