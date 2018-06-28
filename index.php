@@ -42,7 +42,7 @@
 			}
 			body {
 				display: flex;
-				height: 80vh;
+				height: 90vh;
 				flex-direction: column;
 				background: url("images/bgImage.jpg");
 				background-repeat: no-repeat;
@@ -51,7 +51,7 @@
 			/*change*/
 			main {
 				flex: 1 0 auto;
-				height: 63vh;
+				height: 73vh;
 			}
 			button{
 				border-radius: 13px;
