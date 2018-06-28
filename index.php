@@ -13,7 +13,7 @@
 				border-bottom: none;
 			}
 			.red {
-   				 background-color: #bf2e2a !important;
+				background-color: #bf2e2a !important;
 			}
 			@media only screen and (max-width: 360px)
 				.flow-text {
@@ -37,8 +37,8 @@
 				background-color: #fafafa!important;
 				border-bottom: none!important;
 				height:1rem!important;
-			    margin-left: 5px!important;
-		 		margin-bottom: 0px!important;
+			margin-left: 5px!important;
+				margin-bottom: 0px!important;
 			}
 			body {
 				display: flex;
@@ -48,6 +48,7 @@
 				background-repeat: no-repeat;
 				background-size: 100% 100%;
 			}
+			
 			main {
 				flex: 1 0 auto;
 				height: 83vh;
@@ -57,10 +58,10 @@
 			}
 			button#review{
 				margin-left: 15%;
-    			width: auto;
-    			height: 2rem;
- 				border-color: #bf2e2a;
-   			}
+			width: auto;
+			height: 2rem;
+				border-color: #bf2e2a;
+			}
 			.user-container{
 				display:inline-grid;
 				grid-template-columns: 25% auto;
@@ -90,6 +91,7 @@
 				justify-self: center;
 				padding-top: 40px!important;
 			}
+			
 			.main-container{
 					display: inline-grid;
 					grid-template-columns: 15% auto 15%;
@@ -132,12 +134,13 @@
 				place-self: center stretch;
 				border-top:solid white 1px;
 			}
+			
 			.search-box{
 				display: flex;
 				flex-direction: row;
 				background-color:white;
 				border-radius: 23px;
-				height:6vh; 
+				height:6vh;
 			}
 			.search-btn{
 				color:#607d8b;
@@ -160,6 +163,18 @@
 			.item-b>div:nth-child(1){
 				width:85%;
 			}
+			.item-b {
+				display:flex;
+				flex-direction: row;
+				grid-column-start: 1;
+				grid-column-end: 5;
+				grid-row-start: 2;
+				grid-row-end: 2;
+				margin-right: 30px;
+    			margin-left: 30px;
+    			margin-bottom: 10px;
+    			background-color: white;
+			}
 		</style>
 		<title>CheatedBuyers||Home-Page</title>
 		<!--Let browser know website is optimized for mobile-->
@@ -176,59 +191,61 @@
 						</div>
 						<a class="user-item-a" href="#user"><img style="margin:10px;" class="circle" src="images/profile.png"></a>
 						<a class="user-item-b" href="#name"><span class="white-text name">Welcome,</span></a>
-						<a class="user-item-c" href="#email"><span class="white-text email">Guest</span></a>	
+						<a class="user-item-c" href="#email"><span class="white-text email">Guest</span></a>
 						<a href="#" class="user-item-d"><h4 style="margin:10px;"><span class="material-icons">lock_open</span>Login</h4></a>
-						</div>
-					</li>
-					<li><a href="/social-media-update.php">Social Media Updates</a></li>
-					<li><a href="/city-wise-developers.php">City wise developers</a></li>
-					<li><a href="/youtube-page.php">YouTube Videos</a></li>
-					<li><a href="/legal-queries.php">Queries</a></li>
-					<li><a href="/news-update.php">News Updates</a></li>
-					<li><a href="/weekly-videos.php">Weekly Videos</a></li>
-				</ul>
-				<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-			</nav>
-		</header>
+					</div>
+				</li>
+				<li><a href="/social-media-update.php">Social Media Updates</a></li>
+				<li><a href="/city-wise-developers.php">City wise developers</a></li>
+				<li><a href="/youtube-page.php">YouTube Videos</a></li>
+				<li><a href="/legal-queries.php">Queries</a></li>
+				<li><a href="/news-update.php">News Updates</a></li>
+				<li><a href="/weekly-videos.php">Weekly Videos</a></li>
+			</ul>
+			<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		</nav>
+	</header>
+
+	
 	<main class="main-container">
 		<div class="main-item-a">
 			<div class="search-box">
 				<input type="text" class="search" name="search" placeholder="Search Projects or Builders">
-			<a href="#" class="search-btn"><i style="padding-top: 5px;"class="material-icons">search</i></a>
+				<a href="#" class="search-btn"><i style="padding-top: 5px;"class="material-icons">search</i></a>
 			</div>
 		</div>
-	<div class="main-item-b flow-text"><span class="white-text" style="font-size: 1.9rem;">Let's Hear from you</span>
+		<div class="main-item-b flow-text"><span class="white-text" style="font-size: 1.9rem;">Let's Hear from you</span>
 		<button id="review" class="red white-text">
-			Write your review
+		Write your review
 		</button>
 	</div>
 	
 	<span class="main-item-c white-text">Check how user are using</span>
 	<div class="main-item-d white-text">
 		<span style="margin-left: 20px;" class="white-text">www.cheatedbuyers.com</span><br>
-		<button class="click-here white">Clickhere</button>		
+		<button class="click-here white">Clickhere</button>
 	</div>
 </main>
 <footer class="subscribe-container red">
-<div class="item-a">
-	<span class="white-text">Subscribe to our newsletter</span>
-</div>
-<div class="item-b">
-	<div><input placeholder="Enter your e-mail address" class="browser default" type="text" name="subscribe"></div>
-	<div style="padding-right: 5px;padding-top: 5px;padding-bottom: 5px;"><button class="red bt white-text" style="border-radius: 13px;border-color: #bf2e2a;">Subscribe</button></div>
-</div>
-</footer><!--JQuery initialization-->
-<script type="text/javascript" src="js/jQuery.min.js"></script>
-<!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript">
-	//sidenav initialization
-	$(document).ready(function(){
-		$('.sidenav').sidenav();
-});
-	function clicked(){
-		console.log("clicked")
-	}
-</script>
+	<div class="item-a">
+		<span class="white-text">Subscribe to our newsletter</span>
+	</div>
+	<div class="item-b">
+		<div><input placeholder="Enter your e-mail address" class="browser default" type="text" name="subscribe"></div>
+		<div style="padding-right: 5px;padding-top: 5px;padding-bottom: 5px;"><button class="red bt white-text" style="border-radius: 13px;border-color: #bf2e2a;">Subscribe</button></div>
+	</div>
+	</footer><!--JQuery initialization-->
+	<script type="text/javascript" src="js/jQuery.min.js"></script>
+	<!--JavaScript at end of body for optimized loading-->
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+		//sidenav initialization
+		$(document).ready(function(){
+			$('.sidenav').sidenav();
+	});
+		function clicked(){
+			console.log("clicked")
+		}
+	</script>
 </body>
 </html>
