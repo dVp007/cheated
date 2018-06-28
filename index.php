@@ -51,7 +51,7 @@
 			/*change*/
 			main {
 				flex: 1 0 auto;
-				height: 73vh;
+				height: 74vh;
 			}
 			button{
 				border-radius: 13px;
