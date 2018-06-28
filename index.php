@@ -42,16 +42,16 @@
 			}
 			body {
 				display: flex;
-				height: 100vh;
+				height: 80vh;
 				flex-direction: column;
 				background: url("images/bgImage.jpg");
 				background-repeat: no-repeat;
 				background-size: 100% 100%;
 			}
-			
+			/*change*/
 			main {
 				flex: 1 0 auto;
-				height: 83vh;
+				height: 63vh;
 			}
 			button{
 				border-radius: 13px;
@@ -62,6 +62,7 @@
 			height: 2rem;
 				border-color: #bf2e2a;
 			}
+			/*change end*/
 			.user-container{
 				display:inline-grid;
 				grid-template-columns: 30% auto;
@@ -73,7 +74,6 @@
 				grid-column-end: 2;
 				grid-row-start: 1;
 				grid-row-end: 1;
-				border-bottom: solid white 1px;
 			}
 			.user-item-b{
 				grid-column-start: 2;
@@ -101,10 +101,11 @@
 				place-self: center stretch;
 				border-top:solid white 1px;
 			}
+			/*change*/
 			.main-container{
 					display: inline-grid;
 					grid-template-columns: 15% auto 15%;
-					grid-template-rows: auto auto 20% 20%;
+					grid-template-rows: auto auto 15% 15%;
 			}
 			.main-item-a{
 				grid-column-start: 2;
@@ -147,6 +148,7 @@
 			.search{
 				margin:1vh!important;
 			}
+			/*change end*/
 		.subscribe-container {
 			display: inline-grid;
 			grid-template-columns: 25% 25% 25% 25%;
@@ -205,7 +207,7 @@
 		</nav>
 	</header>
 
-	
+	<!--change-->
 	<main class="main-container">
 		<div class="main-item-a">
 			<div class="search-box">
@@ -225,6 +227,7 @@
 		<button class="click-here white">Clickhere</button>
 	</div>
 </main>
+<!--change end-->
 <footer class="subscribe-container red">
 	<div class="item-a">
 		<span class="white-text">Subscribe to our newsletter</span>
